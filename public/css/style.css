@@ -913,6 +913,13 @@ section#about {
 }
 
 /* === Dog listening section === */
+.dog-listening{
+	background-image: -moz-linear-gradient( 0deg, rgb(14,21,32) 0%, rgb(30,37,47) 100%);
+ 	background-image: -webkit-linear-gradient( 0deg, rgb(14,21,32) 0%, rgb(30,37,47) 100%);
+  	background-image: -ms-linear-gradient( 0deg, rgb(14,21,32) 0%, rgb(30,37,47) 100%);
+  	opacity: 0.851;
+}
+
 .hear-about-it{
 	display: flex;
 }
@@ -925,17 +932,70 @@ section#about {
 	width: 60%;
 }
 
+.hear-about-it h2, .hear-about-it p{
+	color: #fff;
+}
+
 /* === Dog listening section end === */
 
 
 /* === Expertise section start === */
+.service-box{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.service-box h2{
+	text-align: center;
+}
 /* === Expertise section end === */
 
+/* === Why section start === */
+.why{
+  background-image: -moz-linear-gradient( 0deg, rgb(14,21,32) 0%, rgb(30,37,47) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(14,21,32) 0%, rgb(30,37,47) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(14,21,32) 0%, rgb(30,37,47) 100%);
+  opacity: 0.851;
+}
+.why h2, .why .reasons{
+	text-align: center;
+	color: #fff;
+}
+
+.why hr{
+	width: 50px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+.why .span4{
+	background-color: #fff;
+    margin-left: 10px !important;
+    padding: 10px !important;
+
+}
+/* === Why section end === */
 
 /* === Contact section === */
 
+.contact{
+	background-image: -moz-linear-gradient( 0deg, rgb(14,21,32) 0%, rgb(30,37,47) 100%);
+  	background-image: -webkit-linear-gradient( 0deg, rgb(14,21,32) 0%, rgb(30,37,47) 100%);
+  	background-image: -ms-linear-gradient( 0deg, rgb(14,21,32) 0%, rgb(30,37,47) 100%);
+  	opacity: 0.851;
+}
 
+.contact h2{
+	color: #fff;
+	width: 500px;
+}
+
+.contact .row1{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* Contact Form */
 
 .validation {
@@ -1061,9 +1121,9 @@ div.cform-response-output {
 ============================================================ */
 
 footer {
-	background: #2b2b2b;
+	background: #fff;
 	text-align: center;
-	color: #ddd;
+	color: black;
 	padding:50px 0 50px;
 }
 
